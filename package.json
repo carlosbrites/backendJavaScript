@@ -1,0 +1,34 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Atividade1",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon",
+    "production": "pm2 start app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosbrites/backEnd.git"
+  },
+  "keywords": [
+    "backend",
+    "javascript",
+    "sql",
+    "nodejs"
+  ],
+  "author": "Carlos Brites",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosbrites/backEnd/issues"
+  },
+  "homepage": "https://github.com/carlosbrites/backEnd#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-form-data": "^2.0.22",
+    "moment": "^2.29.4",
+    "mysql2": "^3.6.0",
+    "nodemon": "^3.0.1"
+  }
+}
